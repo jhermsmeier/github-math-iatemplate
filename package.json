@@ -14,7 +14,9 @@
   ],
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "generate-github-markdown-css": "^2.0.1"
+  },
   "peerDependencies": {},
   "optionalDependencies": {},
   "homepage": "https://github.com/jhermsmeier/github-math-iatemplate",
@@ -26,6 +28,7 @@
     "url": "https://github.com/jhermsmeier/github-math-iatemplate/issues"
   },
   "scripts": {
+    "style": "github-markdown-css > Contents/Resources/github-markdown.css",
     "iatemplate": "rm -r github-mathml.iatemplate; mkdir -p github-mathml.iatemplate; cp -r ./Contents github-mathml.iatemplate/",
     "zip": "rm GitHub-MathML.zip; zip -r -9 GitHub-MathML.zip github-mathml.iatemplate/ -x github-mathml.iatemplate/**/.DS_Store",
     "bundle": "npm run iatemplate; npm run zip",
