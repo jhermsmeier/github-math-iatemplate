@@ -1,0 +1,46 @@
+@import 'github-markdown.css';
+
+html {
+  background-color: white;
+}
+
+// The TeX is in containers with a .math class
+// and to avoid flashing ot the raw TeX, we hide it
+.math {
+  display: none;
+}
+
+@media screen {
+  .markdown-body {
+    margin: 0 auto;
+    padding 0;
+    max-width: calc(980px - 90px);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .markdown-body {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .markdown-body {
+    padding: 0 45px;
+  }
+}
+
+@media screen {
+  .markdown-body pre {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media print {
+  .markdown-body {
+    padding: 0 75px;
+  }
+  .markdown-body pre code {
+    white-space: pre-wrap;
+  }
+}

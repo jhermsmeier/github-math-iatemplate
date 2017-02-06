@@ -1,0 +1,34 @@
+{
+  "name": "github-mathml",
+  "private": true,
+  "version": "1.0.0",
+  "description": "iA Writer template with support for Math",
+  "license": "MIT",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "keywords": [
+    "iawriter",
+    "ia",
+    "writer",
+    "math",
+    "template"
+  ],
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/github-math-iatemplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/github-math-iatemplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/github-math-iatemplate/issues"
+  },
+  "scripts": {
+    "iatemplate": "rm -r github-mathml.iatemplate; mkdir -p github-mathml.iatemplate; cp -r ./Contents github-mathml.iatemplate/",
+    "zip": "rm GitHub-MathML.zip; zip -r -9 GitHub-MathML.zip github-mathml.iatemplate/ -x github-mathml.iatemplate/**/.DS_Store",
+    "bundle": "npm run iatemplate; npm run zip",
+    "test": "npm run iatemplate; open github-mathml.iatemplate"
+  }
+}
