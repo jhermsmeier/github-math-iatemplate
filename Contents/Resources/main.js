@@ -32,9 +32,7 @@ window.addEventListener( 'DOMContentLoaded', function() {
   }
 
   document.body.addEventListener( 'ia-writer-change', function() {
-    window.requestAnimationFrame( processMath )
+    processMath()
   })
-
-  window.requestAnimationFrame( processMath )
 
 })
