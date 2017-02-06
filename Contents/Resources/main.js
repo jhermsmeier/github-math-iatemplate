@@ -19,9 +19,7 @@ window.addEventListener( 'DOMContentLoaded', function() {
   }
 
   function render( element ) {
-    element.outerHTML = '<figure>' +
-        parse( element.textContent ) +
-      '</figure>'
+    element.outerHTML = parse( element.textContent )
   }
 
   function processMath() {
