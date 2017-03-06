@@ -10,13 +10,21 @@ Custom iA Writer template with support for Math
 
 Same thing for updates – iA Writer will prompt you if you want to replace the currently installed template with the new one.
 
-## Usage
+## Features
+
+### Code Syntax Highlighting
 
 <p align="center">
-    <img src="screenshot.png" alt="Screenshot">
+    <img src="screenshots/code.png" alt="Screenshot">
 </p>
 
-### Inline
+### MathML
+
+<p align="center">
+    <img src="screenshots/math.png" alt="Screenshot">
+</p>
+
+#### Inline
 
 ```
 $D(\mathbf{x})=A(\mathbf{x}) + \mathbf{d}$
@@ -26,7 +34,7 @@ $D(\mathbf{x})=A(\mathbf{x}) + \mathbf{d}$
 \\(\cos(\alpha_{n-1})\\)
 ```
 
-### Block
+#### Block
 
 ```
 $$D(\mathbf{x})=A(\mathbf{x}) + \mathbf{d}$$
