@@ -1,5 +1,3 @@
-@import 'github-markdown.css';
-
 html {
   background-color: white;
 }
@@ -17,7 +15,7 @@ html {
 @media screen {
   .markdown-body {
     margin: 0 auto;
-    padding 0;
+    padding: 0;
     max-width: calc(980px - 90px);
   }
 }
