@@ -2,3 +2,4 @@
 *.log
 *.iatemplate
 node_modules
+build
