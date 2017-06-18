@@ -32,6 +32,6 @@
     "iatemplate": "rm -r build/github-mathml.iatemplate; mkdir -p build/github-mathml.iatemplate; cp -r ./Contents build/github-mathml.iatemplate/",
     "zip": "rm build/GitHub-MathML.zip; zip -r -9 build/GitHub-MathML.zip build/github-mathml.iatemplate/ -x build/github-mathml.iatemplate/**/.DS_Store",
     "bundle": "npm run iatemplate; npm run zip",
-    "test": "npm run iatemplate; open build/github-mathml.iatemplate"
+    "postinstall": "npm run iatemplate; open build/github-mathml.iatemplate"
   }
 }
