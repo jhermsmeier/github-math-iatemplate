@@ -1,7 +1,7 @@
 {
   "name": "github-mathml",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "iA Writer template with support for Math",
   "license": "MIT",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
