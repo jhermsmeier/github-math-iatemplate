@@ -2,8 +2,10 @@ html {
   background-color: white;
 }
 
-// The TeX is in containers with a .math class
-// and to avoid flashing ot the raw TeX, we hide it
+/*
+  The TeX is in containers with a .math class
+  and to avoid flashing ot the raw TeX, we hide it
+*/
 .math {
   display: none;
 }

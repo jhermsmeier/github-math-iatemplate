@@ -17,7 +17,7 @@
     function highlightCode() {
       var blocks = $$( 'pre > code' )
       for( var i = 0; i < blocks.length; i++ ) {
-        hljs.highlightBlock( blocks[i] )
+        try { hljs.highlightBlock( blocks[i] ) } catch( error ) {}
       }
     }
 
