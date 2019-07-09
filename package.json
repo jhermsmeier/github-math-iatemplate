@@ -15,7 +15,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "generate-github-markdown-css": "^2.1.0"
+    "generate-github-markdown-css": "^3.0.2"
   },
   "peerDependencies": {},
   "optionalDependencies": {},
