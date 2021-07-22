@@ -12,7 +12,7 @@ Same thing for updates – iA Writer will prompt you if you want to replace the 
 
 ## Features
 
-### Code Syntax Highlighting
+### Code Syntax Highlighting in both light & night modes
 
 <p align="center">
     <img src="screenshots/code.png" alt="Screenshot">

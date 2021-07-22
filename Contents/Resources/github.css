@@ -1,3 +1,8 @@
+@import 'github-markdown.css' screen and (min-width: 520px), print;
+@import 'github-gist.css' screen and (min-width: 520px), print;
+@import 'github-markdown-night-mode.css' screen;
+@import 'github-dark-dimmed.min.css' screen;
+
 html {
   background-color: white;
 }
